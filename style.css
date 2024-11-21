@@ -61,7 +61,7 @@ button {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 44px 200px 44px 200px;
+    padding: 64px 200px 64px 200px;
     background-color: #2F2E2D;
     color: white;
 }
@@ -86,4 +86,42 @@ button {
 .hero-image {
     width: 450px;
     height: 280px;
+}
+
+/* PRODUCTS SECTION STYLE */
+
+.products-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 72px 0px 96px 0px; 
+    background-color: #F0EDEA;
+}
+
+.products-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.products-list {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    gap: 12px;
+}
+
+.product img {
+    height: 150px;
+    width: auto;
+}
+
+.product p {
+    margin: 0;
 }
